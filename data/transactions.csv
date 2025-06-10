@@ -1,0 +1,150 @@
+id,date,amount,description,category,account_name
+d456ba40-6e01-4d47-8508-922ceaa2ee85,2025-06-16,2502.72,Spotify Subscription,Rent,Credit Card
+b0f1514e-cce1-4123-914f-c9254382a2c7,2025-06-27,-1205.06,Maid Service,Subscriptions,Credit Card
+280ac051-7c2f-40f5-914f-9cd31db761e6,2025-06-24,47.52,Electric Bill - June,Gym Equipment,Business Checking
+2c86761e-60cb-4bee-9c7a-a406e83dfd31,2025-06-11,-431.31,Electric Bill - June,Salary,Credit Card
+0fb1a01e-d790-4238-adcc-7c1e0332dac2,2025-06-02,1285.9,Electric Bill - June,Insurance,Credit Card
+6470a21b-b2d1-47a4-aad7-9e3ffe1f1d35,2025-06-26,6236.57,Google Ads,Snacks,Savings
+823eccd1-fe33-44e1-b30a-9b373ff8582b,2025-06-09,2188.38,Google Ads,Utilities,Savings
+81bfdd8b-d9eb-47dd-a51a-82cf39c8494d,2025-06-20,3346.27,Protein Bars,Insurance,Business Checking
+4fbd0d00-96b1-4749-9e5f-66d1f2df0575,2025-06-04,3626.3,Protein Bars,Gym Equipment,Credit Card
+cd2cd441-2294-4a53-9b5a-8bb07a261f41,2025-06-17,-1134.89,Electric Bill - June,Utilities,Credit Card
+888a8213-eab4-4afe-a059-66a0913bf7d0,2025-06-25,1392.78,Electric Bill - June,Salary,Savings
+811b3fa6-d21b-4594-981c-fdbd16cf8101,2025-06-22,-2098.61,Protein Bars,Gym Equipment,Business Checking
+4ebf3e64-2965-4ee1-90bf-9b7426479c47,2025-06-09,1585.24,Water Bill,Salary,Credit Card
+1578b69e-ef8a-4981-ba11-0609d583df6c,2025-06-13,-2583.5,Monthly Rent,Utilities,Business Checking
+0918e4cd-0e7c-42a5-aae0-71649075733f,2025-06-29,1091.28,Monthly Rent,Marketing,Business Checking
+b4d24d84-3d2d-4722-9db4-ff0951347aa5,2025-06-18,5035.84,Maid Service,Salary,Credit Card
+02dcb056-3ad5-43a9-98ac-36d67827c039,2025-06-19,1525.96,Spotify Subscription,Cleaning,Savings
+04c57c2f-34e7-4a99-8147-b868d056b15c,2025-06-24,2492.76,Monthly Rent,Gym Equipment,Savings
+98014c35-ed39-47a9-ad88-eab414d8a23e,2025-06-18,4327.63,Maid Service,Subscriptions,Savings
+e5bc38e9-ea0d-4438-a905-a66a9c961809,2025-06-30,6444.94,Google Ads,Insurance,Credit Card
+70d37cef-b519-4cd5-aba4-168cda6d2a3c,2025-06-12,5002.84,Water Bill,Rent,Credit Card
+47730c52-7a08-4dee-9813-10e34f96ea47,2025-06-07,-1308.9,Business Insurance,Gym Equipment,Savings
+633f44ef-1681-4c04-b4d6-d42d8d37830d,2025-06-13,6415.67,Monthly Rent,Marketing,Business Checking
+151a62b7-ceb4-48e1-acc6-8df0b49a0946,2025-06-13,5824.04,Monthly Rent,Rent,Credit Card
+cb00b4d5-2676-405b-ab74-5e20b473aacd,2025-06-23,3549.81,Google Ads,Salary,Credit Card
+6b513286-4c33-420d-8fe5-46026d902c9c,2025-06-14,3138.89,Monthly Rent,Subscriptions,Savings
+3262ad1c-9b29-4b9c-b494-7d5008003fa8,2025-06-28,-2642.14,Water Bill,Subscriptions,Savings
+ae6d4dd4-999f-4e1a-a8f0-897933f3ae8f,2025-06-10,6518.54,Google Ads,Salary,Business Checking
+47f40573-52d3-4860-b1c6-148933562286,2025-06-18,1053.22,Google Ads,Cleaning,Business Checking
+7eb2805f-0b66-4d02-9b1e-68e9ef4a22b8,2025-06-20,-700.46,Electric Bill - June,Marketing,Savings
+64a74eac-d72a-4839-bc4a-4d2214abfeaf,2025-04-11,218.54,NA,utilities,NA
+8142c22d-44ae-4a30-a3f6-c7d02d197013,2025-04-11,477.82,NA,utilities,NA
+f0a24b13-2b26-4343-af46-4432df9cb89d,2025-04-11,379.4,NA,maintenance,NA
+9afa3aec-6324-42af-b95c-763a7d7e307c,2025-04-12,319.4,NA,marketing,NA
+5054fcae-f89f-4ea3-a7d5-2e1214c0576f,2025-04-13,120.21,NA,rent,NA
+763e6e4e-9a7c-4105-81df-507e32bbc8be,2025-04-14,120.2,NA,staff,NA
+c3500ebf-d63a-4a18-b620-87f5d0f902da,2025-04-14,76.14,NA,marketing,NA
+3789d49f-ba19-4ee7-80d0-d22310ea4407,2025-04-15,439.78,NA,utilities,NA
+5bec925e-6a96-4f6f-804b-fe2ddf4a9017,2025-04-15,320.5,NA,staff,NA
+56d4ab32-ab41-4a1f-aac3-a1358d103ca6,2025-04-16,368.63,NA,utilities,NA
+c14c2f3f-09d5-441f-a6af-5d4bc043ad1c,2025-04-16,59.26,NA,staff,NA
+159296b5-2713-43e7-bd62-6163aa56d61d,2025-04-17,486.46,NA,staff,NA
+e8fe3aa2-95c1-4b29-83fb-2761bb79f6fd,2025-04-17,424.6,NA,equipment,NA
+e992048e-fb66-476c-a265-397ec6144260,2025-04-18,145.55,NA,marketing,NA
+59944ef5-9e65-49dc-b4a1-cb38dc0289ab,2025-04-18,131.82,NA,equipment,NA
+910b694e-cfda-44a8-88e7-b318dc96e4dd,2025-04-19,132.53,NA,equipment,NA
+8191e645-3884-4751-8c97-0ed9b5fd99c1,2025-04-19,186.91,NA,staff,NA
+7117b3c9-96ff-4feb-b5a1-122031438bdb,2025-04-20,286.14,NA,staff,NA
+7e44ae26-1054-4c92-887d-f818793b35af,2025-04-20,244.38,NA,equipment,NA
+c457341b-f7bd-44af-973f-80a76a324891,2025-04-21,181.05,NA,utilities,NA
+29b467bc-8793-4b30-ab9a-b8e18fdb6a7e,2025-04-22,325.33,NA,equipment,NA
+efee5135-9640-4c23-9b03-bdde9287a59b,2025-04-22,112.77,NA,staff,NA
+755f2109-50cc-4672-9418-91f828cde541,2025-04-23,181.47,NA,utilities,NA
+5d51e165-c9c0-49eb-b905-e2b9eee17131,2025-04-23,214.86,NA,maintenance,NA
+9da55930-eeab-4f4f-a6be-6f21c99c2d15,2025-04-24,255.23,NA,equipment,NA
+e1044cbe-1098-4b50-88ec-e1bd411f985c,2025-04-24,403.33,NA,maintenance,NA
+e476bf88-2ba1-46f7-b056-e78389b506f2,2025-04-25,139.85,NA,maintenance,NA
+7862908e-84df-458a-90bc-8e80b7d65080,2025-04-25,281.41,NA,equipment,NA
+17b1a865-26f7-446e-90da-cb68b014515d,2025-04-26,316.59,NA,rent,NA
+148cab5e-e74b-41c2-b0a5-399db4b1d33c,2025-04-26,70.9,NA,staff,NA
+dad03ff8-d5a6-4b3d-a409-453505df4acc,2025-04-27,323.4,NA,rent,NA
+920a3c5e-dcbd-42f9-a58c-dc7a66494acb,2025-04-27,126.74,NA,rent,NA
+3c32b120-598d-4109-82ba-2af92ec1350a,2025-04-27,79.27,NA,equipment,NA
+015bbc5f-a743-49dd-b532-74600b99cf86,2025-04-28,477,NA,maintenance,NA
+632a3c0a-0af8-4d6c-8547-b6ab0fc62039,2025-04-29,484.53,NA,rent,NA
+9de77a21-5e5d-4d04-9341-5b852bfbeca2,2025-04-29,413.78,NA,maintenance,NA
+89833385-20db-4b80-aaa5-0515ec974ada,2025-04-30,187.08,NA,staff,NA
+d5b5ef05-68eb-47b6-840d-6a4a74f30c08,2025-04-30,93.95,NA,equipment,NA
+413588fb-81f2-4e81-a298-7a0f64ab9cb5,2025-04-30,357.9,NA,staff,NA
+faa3ef22-a463-4760-8a2e-8936d8397ae1,2025-05-01,248.07,NA,rent,NA
+1026ff23-16a5-4dca-85d3-70bb04335004,2025-05-01,104.92,NA,maintenance,NA
+ea5b168e-8f81-48b9-9031-67d2f577fd76,2025-05-02,272.83,NA,utilities,NA
+05c8e144-28e1-42ba-9263-ef5bb8c26635,2025-05-03,65.47,NA,staff,NA
+c09f765c-427c-4c1f-b517-1105b7b77755,2025-05-03,459.19,NA,marketing,NA
+7ccefdac-bc18-447d-a392-b055a59418bf,2025-05-03,166.45,NA,staff,NA
+1728d507-b392-4244-9f9d-dbcbb447a9a8,2025-05-04,348.14,NA,utilities,NA
+36a5f97d-9560-43d9-9484-2f779dc2b0a7,2025-05-05,190.27,NA,maintenance,NA
+f9ec2121-3767-4fd8-a378-6c36940489f6,2025-05-05,284.03,NA,utilities,NA
+9d248ccb-5552-4fde-a002-e1d3508b6ae3,2025-05-05,296.02,NA,equipment,NA
+078e3bda-24f7-469e-8750-c80c84c5d3f0,2025-05-06,133.18,NA,equipment,NA
+0cd284f7-d06c-4465-8006-b73e1614d263,2025-05-06,486.31,NA,rent,NA
+c1239eba-bda5-4955-8973-1846518f0d1a,2025-05-06,398.81,NA,utilities,NA
+1a761c2d-8eff-41e9-aebc-101945328157,2025-05-07,472.77,NA,maintenance,NA
+dcc9a5a9-1c7c-4245-82c9-0d67310e25b1,2025-05-07,452.67,NA,staff,NA
+5996871a-b109-485e-ac9e-354c93366f9e,2025-05-07,319.05,NA,utilities,NA
+83a7a6d7-b431-47c3-a642-8500214e28cf,2025-05-08,464.84,NA,rent,NA
+da6cd55b-ad48-4d4e-88ab-0620219dd909,2025-05-08,89.82,NA,marketing,NA
+45c23b33-785a-4fb1-982d-42b22a002452,2025-05-08,138.19,NA,rent,NA
+d76e7c33-2618-449c-81d6-753719ce2d47,2025-05-09,70.35,NA,staff,NA
+2998cb0e-9980-443a-8bab-e9c73109f802,2025-05-10,196.4,NA,equipment,NA
+fe14e9b1-9d44-466a-a752-81d1d536272e,2025-05-11,224.9,NA,maintenance,NA
+ae5b11b1-33f1-47d3-9779-f588b23f0738,2025-05-11,172.11,NA,staff,NA
+5f6c6ab5-35fe-4e2d-a011-623337a0d61b,2025-05-12,422.93,NA,marketing,NA
+722ef0c0-acf8-40f9-9ad2-f536505616e5,2025-05-13,210.54,NA,marketing,NA
+6dfbc189-0e49-4e96-9ccd-7a3c47dd943a,2025-05-13,176.42,NA,staff,NA
+d47117ae-521f-4554-a224-efe1b466b8ba,2025-05-14,294.21,NA,maintenance,NA
+494bfce8-fa22-4b45-b9d5-274e52d199f1,2025-05-15,113.42,NA,maintenance,NA
+a9170a36-83d6-4dbe-b240-8b5abea4124f,2025-05-15,410.99,NA,maintenance,NA
+0b1a2ad7-743c-4970-8969-b25e6cd2f81f,2025-05-15,83.55,NA,rent,NA
+4ba88fa1-0df0-4b4e-9f4c-32906344dc1b,2025-05-16,494.1,NA,staff,NA
+f3dbf767-0652-4eee-909f-1f6454d91d5c,2025-05-17,397.51,NA,staff,NA
+7f2982d8-e238-4198-a1d9-69b215d7f31a,2025-05-18,139.42,NA,utilities,NA
+fa56001b-15a5-40d2-ba0e-a35dfe1f2e5b,2025-05-19,52.48,NA,staff,NA
+70d4b9dc-aba3-4bf4-b42b-427076374f64,2025-05-19,416.96,NA,staff,NA
+eff0da4c-5bfd-4ba9-8de8-a666d22af3bf,2025-05-19,368.09,NA,utilities,NA
+6fb42627-a281-4217-b14e-c9292f7172cb,2025-05-20,378.05,NA,utilities,NA
+8e147813-6b65-4292-b988-e9c39eb7e246,2025-05-20,397.07,NA,utilities,NA
+64e823d7-fbce-4fa1-abeb-e3cb24b6fcfe,2025-05-21,83.32,NA,utilities,NA
+2c7e9eb3-d8d3-4166-8226-5ede9ee02554,2025-05-22,211.31,NA,equipment,NA
+99fd5d36-53f6-4dc7-b16f-be77e56f1993,2025-05-22,102.14,NA,staff,NA
+1e23b63b-27c5-42bc-9e27-7ccab85072f6,2025-05-23,438.4,NA,maintenance,NA
+ac05a898-a43e-4974-bd12-8ba638ab4a8a,2025-05-24,330.48,NA,marketing,NA
+d4083e3a-85c3-4344-ad4f-f875eec147b6,2025-05-24,198.9,NA,staff,NA
+d25e7086-c9c6-4d62-bef0-e755d86dcdb7,2025-05-24,78.6,NA,equipment,NA
+0e7d0c44-9424-466d-b8ab-256334a873ec,2025-05-25,189.94,NA,maintenance,NA
+4971c771-dffa-44f5-88f4-1d34b2794119,2025-05-25,196.33,NA,marketing,NA
+1628043d-170d-4848-90cd-550a3137fdb3,2025-05-25,378.32,NA,staff,NA
+dab5b738-e90a-403b-b52f-2e1302d220c6,2025-05-26,336.9,NA,maintenance,NA
+666f4a92-db90-4f5f-a0d7-97286a36d105,2025-05-26,449.25,NA,maintenance,NA
+1cdf7ce8-9dd2-4b56-89ac-950c65c20fc8,2025-05-26,262.5,NA,rent,NA
+2044909e-67b7-409a-a0ec-36566b863e1f,2025-05-27,103.82,NA,rent,NA
+0a1acde3-099b-4e44-a4b3-a4aeaf0d47db,2025-05-27,370.96,NA,equipment,NA
+a960cf7c-cd1e-4780-938e-c4247f64828b,2025-05-27,392.35,NA,maintenance,NA
+aa0cf6b8-ebf4-479a-b529-323828d77c49,2025-05-28,302.57,NA,equipment,NA
+ff7d379e-1f5a-4552-a8b6-84cbdca7fd5c,2025-05-29,396.94,NA,rent,NA
+69b26e54-c66c-42a3-a122-f90f9d4095b0,2025-05-29,272.21,NA,equipment,NA
+78b28b5a-292c-440a-b774-b01587810714,2025-05-29,285.23,NA,rent,NA
+736c2f7c-c4f4-4978-8fce-9ed76b80015a,2025-05-30,242.39,NA,utilities,NA
+9392cb21-7f71-4152-bcb3-4ccd01ab6858,2025-05-31,61.44,NA,equipment,NA
+ca1efc80-cf24-4e1e-b271-827da517d47f,2025-05-31,98.55,NA,staff,NA
+783aacea-8f8c-4328-ad95-5766c2226988,2025-06-01,64.14,NA,maintenance,NA
+13431da3-63d6-476c-9a20-a58abcd5f808,2025-06-02,336.38,NA,rent,NA
+53634184-6411-4540-8241-b2161a6cb4ee,2025-06-02,191.46,NA,maintenance,NA
+af3cf841-73a0-4a93-85c0-cd83626a6b44,2025-06-02,278.86,NA,equipment,NA
+c3bd94e6-640e-4bc5-ba34-818b0b463d6d,2025-06-03,458.4,NA,marketing,NA
+cf8a4f04-e5e2-48d0-9061-a840b707db06,2025-06-03,162.18,NA,staff,NA
+9b1f90d9-3139-4d7d-be00-06825c6247a3,2025-06-03,234.67,NA,equipment,NA
+4876a6b2-b3c7-48cb-88de-d63b4daadb9d,2025-06-04,390,NA,equipment,NA
+43f0b9aa-f1ef-46e2-ab26-9af2cdd5192a,2025-06-04,152.96,NA,staff,NA
+283fc4a2-db0d-4856-a510-3b4b5277beec,2025-06-04,84.64,NA,equipment,NA
+25daa4cf-7fde-4a6d-aa31-07b47fc84234,2025-06-05,180.39,NA,maintenance,NA
+5c68c937-4e4e-4ed8-81ff-d2529cd40b4b,2025-06-05,122.55,NA,maintenance,NA
+c3b1c318-2ecf-453b-8d63-29ebf2bc2ea6,2025-06-06,468.36,NA,rent,NA
+92087f8f-f7b4-488b-b41b-72eae141e2c4,2025-06-07,413.65,NA,maintenance,NA
+8f8cbde5-7492-40bf-8bbd-c4b9552cdfd0,2025-06-08,335.03,NA,marketing,NA
+36fc59a4-11cd-49b4-b363-e0d7968e191a,2025-06-08,442.16,NA,rent,NA
+23c9a8df-41ba-41c3-96b3-dea77fe11d53,2025-06-09,411.65,NA,rent,NA
+26e45efa-f41c-44ed-a483-47852c4fe029,2025-06-09,133.96,NA,utilities,NA
+f6af9e7f-1c80-4fe6-bfe7-0be95110dd7e,2025-06-09,451.65,NA,staff,NA

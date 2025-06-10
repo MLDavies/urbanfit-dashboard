@@ -1,0 +1,36 @@
+# === R Specific ===
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# === renv: Exclude user-specific package installs ===
+renv/library/
+renv/python/
+
+# === Supabase credentials ===
+.env
+*.env
+*.env.local
+.Renviron
+
+# === Logs, temp files, misc ===
+*.log
+.DS_Store
+*.tmp
+*.swp
+
+# === VS Code settings (if applicable) ===
+.vscode/
+
+# === OS-Specific ===
+Thumbs.db
+desktop.ini
+
+# === Shiny deployment output ===
+rsconnect/
+
+# === Quarto / Rmarkdown caches (if used) ===
+_cache/
+*.nb.html
+*.utf8.md
