@@ -61,13 +61,17 @@ ui <- navbarPage(
       "))
              ),
       
-      # Original Welcome Header
-      h3("Welcome to UrbanFit Dashboard"),
-      
       # Enhanced Design Elements
-      div(class = "landing-title", "UrbanFit Dashboard"),
+      div(class = "landing-title", "Welcome to UrbanFit Dashboard"),
       div(class = "landing-subtitle",
           "Gain real-time insights into your gym's operations, financial health, and member engagement."),
+      div(class = "feature-box",
+        "This is a real dashboard for a mock company, powered by randomly generated data to produce delightfully non-sensical insights. ",
+        "The backend Supabase database is fully functional (though it stores only fake data), and the full source code is available on GitHub: ",
+        tags$a(href = "https://github.com/MLDavies/urbanfit-dashboard", 
+               "MLDavies/urbanfit-dashboard", 
+               target = "_blank")
+      ),
       
       div(class = "landing-section",
           h3("📊 What You Can Do"),
