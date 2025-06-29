@@ -66,54 +66,54 @@ ui <- navbarPage(
         }
       "))
              ),
-      
-      # Enhanced Design Elements
-      div(class = "landing-title", "Welcome to UrbanFit Dashboard"),
-      div(class = "landing-subtitle",
-          "Gain real-time insights into your gym's operations, financial health, and member engagement."),
-      div(class = "feature-box",
-        "This is a real dashboard for a mock company, powered by randomly generated data to produce delightfully non-sensical insights. ",
-        "The backend Supabase database is fully functional (though it stores only fake data), and the full source code is available on GitHub: ",
-        tags$a(href = "https://github.com/MLDavies/urbanfit-dashboard", 
-               "MLDavies/urbanfit-dashboard", 
-               target = "_blank")
-      ),
-      
-      div(class = "landing-section",
-          h3("📊 What You Can Do"),
-          div(class = "feature-box",
-              tags$ul(
-                tags$li("View and compare financial transactions, class signups, and product sales"),
-                tags$li("Explore trends in member activity and retention"),
-                tags$li("Identify top-performing classes and instructors"),
-                tags$li("Track attendance patterns and spot declining engagement early")
-              )
-          )
-      ),
-      
-      div(class = "landing-section",
-          h3("🛠 How It Works"),
-          div(class = "feature-box",
-              "This dashboard integrates data from your gym's point-of-sale, class signups, check-ins, and online store.
+             
+             # Enhanced Design Elements
+             div(class = "landing-title", "Welcome to UrbanFit Dashboard"),
+             div(class = "landing-subtitle",
+                 "Gain real-time insights into your gym's operations, financial health, and member engagement."),
+             div(class = "feature-box",
+                 "This is a real dashboard for a mock company, powered by randomly generated data to produce delightfully non-sensical insights. ",
+                 "The backend Supabase database is fully functional (though it stores only fake data), and the full source code is available on GitHub: ",
+                 tags$a(href = "https://github.com/MLDavies/urbanfit-dashboard", 
+                        "MLDavies/urbanfit-dashboard", 
+                        target = "_blank")
+             ),
+             
+             div(class = "landing-section",
+                 h3("📊 What You Can Do"),
+                 div(class = "feature-box",
+                     tags$ul(
+                       tags$li("View and compare financial transactions, class signups, and product sales"),
+                       tags$li("Explore trends in member activity and retention"),
+                       tags$li("Identify top-performing classes and instructors"),
+                       tags$li("Track attendance patterns and spot declining engagement early")
+                     )
+                 )
+             ),
+             
+             div(class = "landing-section",
+                 h3("🛠 How It Works"),
+                 div(class = "feature-box",
+                     "This dashboard integrates data from your gym's point-of-sale, class signups, check-ins, and online store.
              It pulls from a centralized Supabase database and renders clean visual summaries using R and Shiny."
-          )
-      ),
-      
-      div(class = "landing-section",
-          h3("🚀 Get Started"),
-          div(class = "feature-box",
-              "Use the tabs at the top to explore different views of your business performance.
+                 )
+             ),
+             
+             div(class = "landing-section",
+                 h3("🚀 Get Started"),
+                 div(class = "feature-box",
+                     "Use the tabs at the top to explore different views of your business performance.
              Try clicking on the visualizations to filter the tables below!"
-          )
-      )
+                 )
+             )
            )
   ),
   tabPanel("Fundamentals",
            sidebarLayout(
              sidebarPanel(
                h4("Select Date Range"),
-               dateInput("from_date", "From:", value = Sys.Date() - 30),
-               dateInput("to_date", "To:", value = Sys.Date()),
+               dateInput("from_date", "From:", value = "2025-04-11"),
+               dateInput("to_date", "To:", value = "2025-06-07"),
                br(),
                p(strong("📈 About the Plots")),
                p("Each plot provides key insight into different aspects of gym operations:"),
@@ -199,14 +199,14 @@ server <- function(input, output, session) {
   checkins <- reactive({ load_data("checkins") })
   classes <- reactive({ load_data("class_signups") })
   sales <- reactive({ load_data("shopify_sales") })
-
+  
   clicked_table <- reactiveVal("Transactions")
-
+  
   observeEvent(input$click_transactions, { clicked_table("Transactions") })
   observeEvent(input$click_checkins, { clicked_table("Check-ins") })
   observeEvent(input$click_classes, { clicked_table("Classes") })
   observeEvent(input$click_sales, { clicked_table("Sales") })
-
+  
   output$barplot_transactions <- renderPlot({
     transactions() |>
       filter(date >= input$from_date, date <= input$to_date) |>
@@ -219,7 +219,7 @@ server <- function(input, output, session) {
       theme_minimal(base_size = 16) +
       theme(axis.text.x = element_text(angle = 45, hjust = 1))
   })
-
+  
   output$checkins_plot <- renderPlot({
     checkins() |>
       mutate(date = as.Date(timestamp)) |>
@@ -230,14 +230,14 @@ server <- function(input, output, session) {
       labs(title = "Check-ins per Day", y = "Total Check-ins", x = NULL) +
       theme_minimal(base_size = 16)
   })
-
+  
   output$classes_plot <- renderPlot({
     df <- classes() |>
       filter(signup_date >= input$from_date, signup_date <= input$to_date) |>
       count(class_type) |>
       mutate(percentage = round(100 * n / sum(n), 1),
              label = paste0(class_type, ": ", percentage, "%"))
-
+    
     ggplot(df, aes(x = "", y = n, fill = class_type)) +
       geom_col(width = 1) +
       scale_fill_tableau() +
@@ -247,7 +247,7 @@ server <- function(input, output, session) {
       theme_void(base_size = 16) +
       theme(legend.position = "right")
   })
-
+  
   output$sales_plot <- renderPlot({
     sales() |>
       filter(purchase_date >= input$from_date, purchase_date <= input$to_date) |>
@@ -260,28 +260,28 @@ server <- function(input, output, session) {
       theme_minimal(base_size = 16) +
       theme(axis.text.x = element_text(angle = 45, hjust = 1))
   })
-
+  
   output$top_members_plot <- renderPlot({
     df <- classes()
-
+    
     if (!all(c("signup_date", "member_id") %in% names(df))) {
       plot.new()
       title("Missing fields in class_signups data.")
       return()
     }
-
+    
     df <- df |>
       filter(signup_date >= input$from_date_membership, signup_date <= input$to_date_membership) |>
       count(member_id, name = "classes_attended") |>
       arrange(desc(classes_attended)) |>
       slice_head(n = 10)
-
+    
     if (nrow(df) == 0) {
       plot.new()
       title("No class attendance data for selected date range.")
       return()
     }
-
+    
     ggplot(df, aes(x = reorder(member_id, classes_attended), y = classes_attended)) +
       geom_col(fill = "darkorchid") +
       coord_flip() +
@@ -291,21 +291,21 @@ server <- function(input, output, session) {
         y = "Number of Classes") +
       theme_minimal(base_size = 16)
   })
-
+  
   output$declining_attendance_plot <- renderPlot({
     df <- classes()
-
+    
     if (!all(c("signup_date", "member_id") %in% names(df))) {
       plot.new()
       title("Missing fields in class_signups data.")
       return()
     }
-
+    
     df <- df |>
       mutate(signup_date = as.Date(signup_date),
              week = floor_date(signup_date, "week")) |>
       count(member_id, week, name = "classes")
-
+    
     slope_df <- df |>
       group_by(member_id) |>
       filter(n() >= 4) |>
@@ -317,11 +317,11 @@ server <- function(input, output, session) {
       }) |>
       filter(!is.na(slope), slope < 0) |>
       arrange(slope)
-
+    
     top_decliners <- slope_df |> slice_head(n = 5) |> pull(member_id)
-
+    
     plot_data <- df |> filter(member_id %in% top_decliners)
-
+    
     ggplot(plot_data, aes(x = week, y = classes, color = member_id, group = member_id)) +
       geom_line(size = 1.5) +
       scale_color_tableau() +
@@ -333,11 +333,11 @@ server <- function(input, output, session) {
         color = "Member ID") +
       theme_minimal(base_size = 16)
   })
-
+  
   output$table_title <- renderText({
     paste("Data Table -", clicked_table())
   })
-
+  
   output$selected_table <- renderDT({
     switch(clicked_table(),
            "Transactions" = transactions() |> filter(date >= input$from_date, date <= input$to_date),
@@ -350,3 +350,5 @@ server <- function(input, output, session) {
 
 # === RUN APP ===
 shinyApp(ui, server)
+
+
