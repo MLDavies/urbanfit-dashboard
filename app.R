@@ -112,8 +112,8 @@ ui <- navbarPage(
            sidebarLayout(
              sidebarPanel(
                h4("Select Date Range"),
-               dateInput("from_date", "From:", value = "2025-04-11"),
-               dateInput("to_date", "To:", value = "2025-06-07"),
+               dateInput("from_date", "From:", value = "2025-04-12"),
+               dateInput("to_date", "To:", value = "2025-06-06"),
                br(),
                p(strong("📈 About the Plots")),
                p("Each plot provides key insight into different aspects of gym operations:"),
