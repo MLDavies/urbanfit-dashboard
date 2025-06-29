@@ -8,15 +8,20 @@ library(ggthemes)
 
 # === ENVIRONMENT CONFIG ===
 supabase_url <- Sys.getenv("SUPABASE_URL")
-api_key <- Sys.getenv("SUPABASE_API_KEY")
+anon_key <- Sys.getenv("SUPABASE_API_KEY")
+service_key <- Sys.getenv("SUPABASE_SERVICE_KEY")
+
+# Choose service key if it's defined, else fall back to anon
+supabase_key <- if (nzchar(service_key)) service_key else anon_key
+
 
 # === DATA FETCH FUNCTION ===
 load_data <- function(table_name) {
   res <- GET(
     url = paste0(supabase_url, "/rest/v1/", table_name),
     add_headers(
-      apikey = api_key,
-      Authorization = paste("Bearer", api_key)
+      Authorization = paste("Bearer", supabase_key),
+      apikey = supabase_key
     ),
     query = list(select = "*")
   )
@@ -30,6 +35,7 @@ load_data <- function(table_name) {
   df <- as_tibble(parsed_data)
   return(df)
 }
+
 
 # === UI ===
 ui <- navbarPage(
